@@ -1,0 +1,13 @@
+﻿create table Produto(
+	IdProduto int identity (1,1) not null,
+	Nome nvarchar (200) not null,
+	Preco decimal(18,2) not null,
+	Quantidade integer not null,
+	DataCadastro datetime not null,
+	primary key (IdProduto)
+)
+GO
+
+alter table produto
+alter column DataCadastro dataCad
+GO
